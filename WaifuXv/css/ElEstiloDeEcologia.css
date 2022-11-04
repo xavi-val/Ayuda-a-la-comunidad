@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	font-family: cursive;
+	margin: 0;
+	background-color: #d4d3d3;
+}
+
+.cuadro{
+	width: 1250px;
+	height: 1900px;
+	margin-left: auto;
+    margin-right: auto;
+	background-color: transparent;
+	
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	font-size: large;
+}
+
+header{
+	display: flex;
+	min-height: 70px;
+	background-color: #e4e4e4;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+h1{
+	text-shadow: rgb(173, 173, 173) 7px 7px;
+}
+
+.logo{
+	display: flex;
+	align-items: center;	
+	font-size: xx-large;
+}
+
+.logo img{
+	height: 90px;
+	margin-right: 5px;
+	margin-left: 40px;
+}
+
+nav a{
+	font-weight: 600;
+	padding-right: 10px;
+	white-space: 30px;
+}
+
+nav a:hover{
+	color: #FFFFFF;
+}
+
+p{
+	text-indent: 2em;
+	text-align: justify;
+	font-size: large;
+}
+
+li{
+	text-align: justify;
+	font-size: large;
+}
+
+.me{
+	width: 500px;
+	display:block;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.AT{
+	font-size: larger;
+}
+/* Cuadro Final */
+
+footer{
+	background-color: #838282;
+}
+
+.cm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cyb{
+	color: #033d94;
+}
+
+.cyb:hover{
+	color: rgb(0, 183, 255);
+}
+
+.centrar{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imginfo{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.invi{
+	color: transparent;
+}
